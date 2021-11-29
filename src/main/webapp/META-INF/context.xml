@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource name="jdbc/MyConnectionPool" auth="Container"
+              type="javax.sql.DataSource"
+              username="root"
+              password="root"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              url="jdbc:mysql://127.0.0.1:3306/tour_agency?autoReconnect=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC&amp;"
+              validationQuery="select 1" maxTotal="100" maxIdle="30"
+              maxWaitMillis="10000" />
+    <Loader jakartaConverter="TOMCAT" />
+    <JarScanner scanClassPath="false"/>
+</Context>

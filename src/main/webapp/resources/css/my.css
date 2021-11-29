@@ -1,0 +1,67 @@
+.sort-action-btn {
+    bottom: auto;
+    left: 1%;
+}
+
+.filter-action-btn {
+    bottom: auto;
+    right: 1%;
+}
+
+.custom_section {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.pagination li.active {
+    background-color: orange;
+}
+
+.visible {
+    display: inline-block;
+}
+
+.invisible {
+    display: none;
+}
+
+.custom_container {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.sort-none .arrow-up, .arrow-down {
+    display: none;
+}
+
+.sort-asc .arrow-up {
+    display: inline-block;
+}
+
+.sort-asc .arrow-down {
+    display: none;
+}
+
+.sort-desc .arrow-up {
+    display: none;
+}
+
+.sort-desc .arrow-down {
+    display: inline-block;
+}
+
+.card.horizontal .card-image {
+    width: 50%;
+}
+
+.card.horizontal .card-image img {
+    height: 100%;
+    max-height: 100%;
+    width: 100%;
+    max-width: 100%;
+    object-fit:cover;
+}
+
+.card.horizontal {
+    height: 35%;
+}
